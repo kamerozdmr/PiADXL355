@@ -14,7 +14,7 @@ hpass_corner = 0                # Select high-pass filter corner
 duration = 60                   # Record lenght as second
 
 # --- VARIABLES ---
-interval = 1 / sampling_rate                      # Interval millisecond
+interval = 1 / sampling_rate                      # Interval as second
 npts = int(duration * sampling_rate)              # Number of data points
 fn = sampling_rate / 2                            # Nyquist frequency
 t = np.linspace(0, duration, npts)                # Create time domain
