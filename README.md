@@ -38,7 +38,7 @@ Example 2 - Read acceleration and plot Spectrum Density of the record.
 
 ----------------------------------------------------------------------------------
 
-Example 3 - Writing acceleration data to Mini-SEED file.
+Example 3 - Writes acceleration data to Mini-SEED file.
 
 <img src="pictures/time_series.png" width="600" height="600">
 
