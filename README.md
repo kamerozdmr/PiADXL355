@@ -12,8 +12,8 @@ Examples are tested with ADXL355Z evaluation board and Raspberry Pi 4 Model B
 
 [ADXL355Z Eval Board](https://www.analog.com/media/en/technical-documentation/user-guides/eval-adxl354-355-ug-1030.pdf)
 
-<img src="pictures/device1.png" width="480" height="400">
-<img src="pictures/device2.png" width="480" height="400">
+<img src="pictures/device1.png" width="600" height="480">
+<img src="pictures/device2.png" width="600" height="480">
 
 Wiring of ADXL355 to Raspberry Pi 
 | ADXL355 Pin | Description | Raspberry Pin |
