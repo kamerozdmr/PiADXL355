@@ -9,7 +9,7 @@ Device can be used for vibration monitoring and structural health monitoring app
 
 ----------------------------------------------------------------------------------
 
-Example 2 - Read acceleration and plot Power Spectrum Density of the record.
+Example 2 - Read acceleration and plot Spectrum Density of the record.
 
 
 ----------------------------------------------------------------------------------
