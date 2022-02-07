@@ -33,7 +33,7 @@ class ADXL355():
         self.transfer = self.spi.xfer2
         self.setrange(RANGE)                    # Set default measurement range
         self.setfilter(ODR, HPFC)               # Set default ODR and filter props
-        self.wait_drdy()
+        self.waitdrdy()
 
         self.factor = (RANGE * 2) / 2 ** 20     # Instrument factor raw to g
 
@@ -51,7 +51,7 @@ class ADXL355():
         address = (register << 1) & 0b11111110
         result = self.transfer([address, value])
     
-    def wait_drdy(self):
+    def waitdrdy(self):
         start = time.time()
         elapsed = time.time() - start
         # Wait DRDY pin to go low or DRDY_TIMEOUT seconds to pass
@@ -240,9 +240,9 @@ class ADXL355():
         return res
 
     def getAxisRaw(self):
-        self.wait_drdy()
+        self.waitdrdy()
         return self.getXRaw(), self.getYRaw(), self.getZRaw()
     
     def getAxis(self):
-        self.wait_drdy()
+        self.waitdrdy()
         return self.getX(), self.getY(), self.getZ()    
