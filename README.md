@@ -11,13 +11,13 @@ Device can be used for vibration monitoring and structural health monitoring app
 
 Example 2 - Read acceleration and plot Spectrum Density of the record.
 
-<img src="pictures/spectral_density.png" width="600" height="480">
+<img src="pictures/spectral_density.png" width="720" height="540">
 
 ----------------------------------------------------------------------------------
 
 Example 3 - Writing acceleration data to Mini-SEED file.
 
-<img src="pictures/time_series.png" width="600" height="480">
+<img src="pictures/time_series.png" width="600" height="600">
 
 ----------------------------------------------------------------------------------
 
