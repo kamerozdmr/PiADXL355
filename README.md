@@ -1,10 +1,24 @@
 # PiADXL355
-Python module for interfacing Analog Devices ADXL355 accelererometer through SPI
-bus with the Raspberry Pi
+Python module for interfacing Analog Devices ADXL355 accelererometer through SPI bus with the Raspberry Pi.
+
+Module depends on wiringpi python library. 
+
+Module uses data ready pin for timing. ODR values given in datasheet can be used as a sampling rate. Time drift is approximately 12 seconds per hour.
+
+Device can be used for vibration monitoring and structural health monitoring applications.
+
+----------------------------------------------------------------------------------
+
+Example 2 - Read acceleration and plot Power Spectrum Density of the record.
 
 
+----------------------------------------------------------------------------------
 
+Example 3 - Writing acceleration data to Mini-SEED file.
 
+<img src="pictures/time_series.png" width="600" height="480">
+
+----------------------------------------------------------------------------------
 
 Examples are tested with ADXL355Z evaluation board and Raspberry Pi 4 Model B
 
