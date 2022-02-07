@@ -4,9 +4,13 @@ bus with the Raspberry Pi
 
 
 
+
+
 Examples are tested with ADXL355Z evaluation board and Raspberry Pi 4 Model B
-ADXL355 Datasheet : https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf
-ADXL355Z Eval Board : https://www.analog.com/media/en/technical-documentation/user-guides/eval-adxl354-355-ug-1030.pdf
+
+[ADXL355 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf)
+
+[ADXL355Z Eval Board](https://www.analog.com/media/en/technical-documentation/user-guides/eval-adxl354-355-ug-1030.pdf)
 
 <img src="pictures/device1.png" width="480" height="400">
 <img src="pictures/device2.png" width="480" height="400">
