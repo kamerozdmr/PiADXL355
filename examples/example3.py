@@ -46,7 +46,7 @@ print(f"Elapsed Time : {round((end-start),2)} second \n")
 
 # --- SAVE TO MINISEED ---
 print("Writing miniseed file...\n")
-mseed_filename = (str(f"{network}-{station}-{location}-{start}-{end}-test_ms"))
+mseed_filename = (str(f"{network}-{station}-{location}-{start}-{end}"))
 
 def getTrace(data, index):
         stats = {"network":network,"station":station,"location":location,
