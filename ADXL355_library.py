@@ -10,6 +10,7 @@ import time
 import wiringpi as wp
 from ADXL355_definitions import *
 
+
 class ADXL355():
     def __init__(self):
         # SPI init
