@@ -1,5 +1,6 @@
 import time
 import sys
+
 sys.path.append("../")
 from ADXL355_library import ADXL355
 
