@@ -9,18 +9,6 @@ Device can be used for vibration monitoring and structural health monitoring app
 
 ----------------------------------------------------------------------------------
 
-Example 2 - Read acceleration and plot Spectrum Density of the record.
-
-<img src="pictures/spectral_density.png" width="720" height="540">
-
-----------------------------------------------------------------------------------
-
-Example 3 - Writing acceleration data to Mini-SEED file.
-
-<img src="pictures/time_series.png" width="600" height="600">
-
-----------------------------------------------------------------------------------
-
 Examples are tested with ADXL355Z evaluation board and Raspberry Pi 4 Model B
 
 [ADXL355 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf)
@@ -41,3 +29,16 @@ Wiring of ADXL355 to Raspberry Pi
 | 10 (Sclk) | Serial Clock | 23 |
 | 11 (Miso) | Master In Slave Out | 21 |
 | 12 (Mosi) | Master Out Slave In | 19 |
+
+----------------------------------------------------------------------------------
+
+Example 2 - Read acceleration and plot Spectrum Density of the record.
+
+<img src="pictures/spectral_density.png" width="720" height="540">
+
+----------------------------------------------------------------------------------
+
+Example 3 - Writing acceleration data to Mini-SEED file.
+
+<img src="pictures/time_series.png" width="600" height="600">
+
