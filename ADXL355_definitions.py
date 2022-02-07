@@ -80,9 +80,11 @@ HPFC_4 = 0b100          # 0.386 x 10-4 x ODR
 HPFC_5 = 0b101          # 0.095 x 10-4 x ODR
 HPFC_6 = 0b110          # 0.023 x 10-4 x ODR
 
+
 RANGE_TO_BIT = {2.048 : RANGE_2G,
                 4.096 : RANGE_4G,
                 8.192 : RANGE_8G}
+
 
 ODR_TO_BIT = {4000  : ODR_4000,
               2000  : ODR_2000,
@@ -95,6 +97,7 @@ ODR_TO_BIT = {4000  : ODR_4000,
               15.625: ODR_15_625,
               7.813 : ODR_7_813,
               3.906 : ODR_3_906}
+
 
 HPFC_TO_BIT = {0 : HPFC_0,
                1 : HPFC_1,
