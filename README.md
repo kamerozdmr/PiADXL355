@@ -11,6 +11,7 @@ Device can be used for vibration monitoring and structural health monitoring app
 
 Example 2 - Read acceleration and plot Spectrum Density of the record.
 
+<img src="pictures/spectral_density.png" width="600" height="480">
 
 ----------------------------------------------------------------------------------
 
