@@ -3,7 +3,6 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.signal as signal
-
 sys.path.append("../")
 from ADXL355_library import ADXL355
 
@@ -13,6 +12,7 @@ sampling_rate = 125             # Select sampling rate
 hpass_corner = 0                # Select high-pass filter corner
 duration = 60                   # Record lenght as second
 
+
 # --- VARIABLES ---
 interval = 1 / sampling_rate                      # Interval as second
 npts = int(duration * sampling_rate)              # Number of data points
@@ -20,12 +20,14 @@ fn = sampling_rate / 2                            # Nyquist frequency
 t = np.linspace(0, duration, npts)                # Create time domain
 data = np.zeros((3, npts), dtype = np.float64)    # Create an empty array
 
+
 # --- SET ADXL355 PARAMETERS ---
 adxl355 = ADXL355()
 adxl355.setrange(output_range)                    # Set measurement range
 adxl355.setfilter(sampling_rate, hpass_corner)    # Set data rate and filter properties 
 adxl355.start()                                   # Enable measurement mode
 time.sleep(0.1)                                   # Wait briefly until the sensor is ready
+
 
 # --- READING LOOP ---
 print("Recording...")
@@ -38,6 +40,7 @@ adxl355.stop()          # Enable standby mode
 
 print(f"Elapsed Time : {round((end-start),2)} second \n")
 
+
 # --- SAVE TO CSV FILE ---
 print("Writing csv file...\n")
 fcsv = open("test_adxl355.csv", "w")
@@ -45,6 +48,7 @@ for i in range(npts):
     fcsv.write(f"{data[0][i]}, {data[1][i]}, {data[2][i]}\n")
     fcsv.flush()
 
+    
 # --- PLOT ---
 print("Plotting...")
 label = ["X", "Y", "Z"]
