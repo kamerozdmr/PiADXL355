@@ -5,8 +5,6 @@ Module depends on wiringpi python library.
 
 Module uses data ready pin for timing. ODR values given in datasheet can be used as a sampling rate. Time drift is approximately 12 seconds per hour.
 
-Device can be used for vibration monitoring and structural health monitoring applications.
-
 ----------------------------------------------------------------------------------
 
 Examples are tested with ADXL355Z evaluation board and Raspberry Pi 4 Model B
