@@ -5,12 +5,6 @@ SPI_BUS = 0
 SPI_DEVICE = 0
 
 
-# DRDY config 
-DRDY_PIN = 11              # Raspberry Pi GPIO pin for DRDY cable 
-DRDY_DELAY = 0.000001      # Delay while polling DRDY pin in seconds 
-DRDY_TIMEOUT = 3           # Delay to check DRDY pin in seconds
-
-
 # Register addresses
 REG_DEVID_AD     = 0x00
 REG_DEVID_MST    = 0x01
@@ -48,6 +42,12 @@ REG_RANGE        = 0x2C
 REG_POWER_CTL    = 0x2D
 REG_SELF_TEST    = 0x2E
 REG_RESET        = 0x2F
+
+
+# DRDY config 
+DRDY_PIN = 11              # Raspberry Pi GPIO pin for DRDY cable 
+DRDY_DELAY = 0.000001      # Delay while polling DRDY pin in seconds 
+DRDY_TIMEOUT = 1           # Delay to check DRDY pin in seconds
 
 
 # Measaurement range definition
