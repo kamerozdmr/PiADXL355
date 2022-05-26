@@ -3,7 +3,7 @@ Python module for interfacing Analog Devices ADXL355 accelererometer through SPI
 
 Module depends on wiringpi python library. 
 
-Module uses data ready pin for timing. ODR values given in datasheet can be used as a sampling rate. Time drift is approximately 12 seconds per hour.
+Module uses data ready pin for timing. ODR values given in datasheet can be used as a sampling rate. 
 
 ----------------------------------------------------------------------------------
 
