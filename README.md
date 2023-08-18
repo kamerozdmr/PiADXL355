@@ -7,8 +7,12 @@ Module uses data ready pin for accurate sampling rate. ODR values given in datas
 
 Files are writen to miniSEED file format with header information. 
 
+
+
 Notes:
+
 Maximum tested data rate is 500 SPS.
+
 Expect some time drift :)
 
 ----------------------------------------------------------------------------------
