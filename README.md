@@ -1,6 +1,8 @@
 # PiADXL355
 Python module for interfacing Analog Devices ADXL355 accelererometer through SPI bus with the Raspberry Pi.
 
+All you need is Raspberry Pi 4, SD card, sensor board and some jumper wires.
+
 Module uses data ready pin for accurate sampling rate. ODR values given in datasheet can be used as a sampling rate.
 
 Files are writen to miniSEED file format with header information. 
