@@ -13,7 +13,7 @@ Notes:
 
 Maximum tested data rate is 500 SPS.
 
-Expect some time drift :)
+Expect some time drift with this version :)
 
 ----------------------------------------------------------------------------------
 
