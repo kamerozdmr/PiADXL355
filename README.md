@@ -37,13 +37,13 @@ Wiring of ADXL355 to Raspberry Pi
 
 ----------------------------------------------------------------------------------
 
-Example 2 - Read acceleration and plot Spectral Density of the record.
+Example 1 - Read acceleration and plot Spectral Density of the record.
 
 <img src="pictures/spectral_density.png" width="720" height="540">
 
 ----------------------------------------------------------------------------------
 
-Example 3 - Write acceleration data to Mini-SEED file.
+Example 2 - Write acceleration data to miniSEED file.
 
 <img src="pictures/time_series.png" width="600" height="600">
 
