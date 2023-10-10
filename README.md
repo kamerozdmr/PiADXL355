@@ -14,7 +14,6 @@ This version of the module uses internal synchronization; thus, the sampling rat
 
 Examples are tested with the ADXL355Z evaluation board and the Raspberry Pi 4 Model B 4GB version.
 
-Run recorder.py to get samples from the sensor.
 
 [ADXL355 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_355.pdf)
 
